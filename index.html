@@ -36,10 +36,7 @@
           >
             <span class="navbar-toggler-icon"></span>
           </button>
-          <div
-            class="collapse navbar-collapse d-flex justify-content-center"
-            id="navbarNav"
-          >
+          <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav gap-4">
               <li class="nav-item">
                 <a class="nav-link" aria-current="page" href="#">Home</a>
@@ -273,6 +270,171 @@
         </div>
       </section>
       <!-- Courses Section Ends -->
+      <!-- Register Bonus Section Starts -->
+      <section class="container">
+        <div
+          class="row d-flex flex-column flex-md-row align-items-center bg-primary rounded m-2 py-5 px-2"
+        >
+          <div class="col-12 col-md-6 text-center text-md-start text-white">
+            <h2 class="fw-bold">Ready to join?</h2>
+            <p>
+              It is a long established fact that a reader will be distracted by
+              the readable content of a page when looking at its layout.
+            </p>
+          </div>
+          <div
+            class="col-12 col-md-6 d-flex justify-content-center justify-content-md-end"
+          >
+            <!-- Button trigger modal -->
+            <button
+              type="button"
+              class="btn btn-primary text-info fw-bold bg-white px-3 py-2"
+              data-bs-toggle="modal"
+              data-bs-target="#staticBackdrop"
+            >
+              Register Now
+            </button>
+
+            <!-- Modal Starts -->
+            <div
+              class="modal fade"
+              id="staticBackdrop"
+              data-bs-backdrop="static"
+              data-bs-keyboard="false"
+              tabindex="-1"
+              aria-labelledby="staticBackdropLabel"
+              aria-hidden="true"
+            >
+              <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="staticBackdropLabel">
+                      Register using below information.
+                    </h5>
+                    <button
+                      type="button"
+                      class="btn-close"
+                      data-bs-dismiss="modal"
+                      aria-label="Close"
+                    ></button>
+                  </div>
+                  <div class="modal-body">
+                    <!--  form Starts  -->
+                    <form class="row g-3">
+                      <div class="col-md-6">
+                        <label for="validationDefault01" class="form-label"
+                          >First name</label
+                        >
+                        <input
+                          type="text"
+                          class="form-control"
+                          id="validationDefault01"
+                          required
+                        />
+                      </div>
+                      <div class="col-md-6">
+                        <label for="validationDefault02" class="form-label"
+                          >Last name</label
+                        >
+                        <input
+                          type="text"
+                          class="form-control"
+                          id="validationDefault02"
+                          required
+                        />
+                      </div>
+                      <div class="col-md-8">
+                        <label
+                          for="validationDefaultUsername"
+                          class="form-label"
+                          >Email</label
+                        >
+                        <div class="input-group">
+                          <input
+                            type="text"
+                            class="form-control"
+                            id="validationDefaultUsername"
+                            aria-describedby="inputGroupPrepend2"
+                            placeholder="example@gmail.com"
+                            required
+                          />
+                        </div>
+                      </div>
+                      <div class="col-md-4">
+                        <label for="validationDefault04" class="form-label"
+                          >Gender</label
+                        >
+                        <select
+                          class="form-select"
+                          id="validationDefault04"
+                          required
+                        >
+                          <option selected disabled value="">Choose...</option>
+                          <option value="volvo">Male</option>
+                          <option value="saab">Female</option>
+                          <option value="opel">Other</option>
+                        </select>
+                      </div>
+                      <div class="col-md-12">
+                        <label for="validationDefault04" class="form-label"
+                          >Courses</label
+                        >
+                        <select
+                          class="form-select"
+                          id="validationDefault04"
+                          required
+                        >
+                          <option selected disabled value="">
+                            Choose Your Favorite Course
+                          </option>
+                          <option>Fundamental of UI/UX</option>
+                          <option>Javascript Basic to advanced</option>
+                          <option>Digital Marketing</option>
+                          <option>Motion Graphics</option>
+                          <option>Photography Basic Rules</option>
+                          <option>Fullstack Web Development</option>
+                        </select>
+                      </div>
+                      <div class="col-12">
+                        <div class="form-check">
+                          <input
+                            class="form-check-input"
+                            type="checkbox"
+                            value=""
+                            id="invalidCheck2"
+                            required
+                          />
+                          <label class="form-check-label" for="invalidCheck2">
+                            Agree to terms and conditions
+                          </label>
+                        </div>
+                      </div>
+                    </form>
+                    <!--  form ends  -->
+                  </div>
+                  <div class="modal-footer">
+                    <button
+                      type="button"
+                      class="btn btn-danger"
+                      data-bs-dismiss="modal"
+                    >
+                      <i class="fa-solid fa-xmark"></i>
+                    </button>
+                    <button type="button" class="btn btn-primary">
+                      <a href=""
+                        ><i class="text-white fa-solid fa-check pe-2"></i>
+                        <span class="text-white">Enroll Now</span></a
+                      >
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Modal Ends -->
+          </div>
+        </div>
+      </section>
+      <!-- Register Bonus Section Ends -->
       <!-- FAQ Section Starts-->
       <section>
         <div class="w-75 mx-auto text-center my-5">
@@ -415,6 +577,73 @@
         </div>
       </section>
       <!-- FAQ Section Starts-->
+      <!-- Trusted Companies Section Starts -->
+      <section class="container my-5 d-none d-lg-block">
+        <h1 class="text-center fw-bold">Trusted by over 800+ companies</h1>
+        <div class="row row-cols-2 row-cols-lg-6 g-2 g-lg-3 align-items-center">
+          <div class="col">
+            <div class="p-3">
+              <img
+                class="img-fluid"
+                src="./images/company/company-1.png"
+                alt=""
+                srcset=""
+              />
+            </div>
+          </div>
+          <div class="col">
+            <div class="p-3">
+              <img
+                class="img-fluid"
+                src="./images/company/company-2.png"
+                alt=""
+                srcset=""
+              />
+            </div>
+          </div>
+          <div class="col">
+            <div class="p-3">
+              <img
+                class="img-fluid"
+                src="./images/company/company-3.png"
+                alt=""
+                srcset=""
+              />
+            </div>
+          </div>
+          <div class="col">
+            <div class="p-3">
+              <img
+                class="img-fluid"
+                src="./images/company/company-4.png"
+                alt=""
+                srcset=""
+              />
+            </div>
+          </div>
+          <div class="col">
+            <div class="p-3">
+              <img
+                class="img-fluid"
+                src="./images/company/company-5.png"
+                alt=""
+                srcset=""
+              />
+            </div>
+          </div>
+          <div class="col">
+            <div class="p-3">
+              <img
+                class="img-fluid"
+                src="./images/company/company-6.png"
+                alt=""
+                srcset=""
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Trusted Companies Section Ends -->
     </main>
     <footer class="text-center mt-5 p-5 bg-dark text-white">
       <h2>Learning Academy</h2>
