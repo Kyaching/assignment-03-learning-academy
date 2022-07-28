@@ -5,6 +5,20 @@
 .banner-height {
   min-height: 262px;
 }
+.edu-title {
+  max-width: 500px;
+}
 .e-learning-color {
   background-color: rgba(244, 250, 253, 1);
+}
+.faq-container {
+  max-width: 872px;
+}
+.angled-icon-right {
+  width: 30px;
+  right: -5px;
+}
+.angled-icon-left {
+  width: 30px;
+  left: -5px;
 }
