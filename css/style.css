@@ -1,3 +1,7 @@
 .banner-img {
   filter: brightness(50%);
+  min-height: 262px;
+}
+.banner-height {
+  min-height: 262px;
 }
